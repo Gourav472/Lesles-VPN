@@ -546,6 +546,11 @@
       gap: 25px;
     }
   }
+  @media (max-width:1200px) {
+    .help_p {
+      padding-right: 0px !important;
+    }
+  }
 
   @media (min-width:768px) {
     .slick-dots {
