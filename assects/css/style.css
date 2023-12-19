@@ -485,7 +485,7 @@
 
     input[type="checkbox"]:checked+ul {
       right: 0;
-      gap: 58px;
+      gap: 30px;
     }
 
     ul {
