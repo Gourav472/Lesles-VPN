@@ -1,0 +1,152 @@
+:root {
+    /* font size */
+    --fs_2xl: 40px;
+    --fs_xl: 20px;
+    --fs_25: 25px;
+    --fs_lg: 20px;
+    --fs_md: 24px;
+    --fs_sm: 18px;
+    --fs_18: 18px;
+    --fs_16: 16px;
+    --fs_14: 14px;
+
+
+    /* font color */
+    --grey: #666666;
+    --white: #F1F2F5;
+    --black: #0B132A;
+    --light_black: #4F5665;
+    --red: #F53855;
+    /* font weight */
+    --fw_7: 700;
+    --fw_6: 600;
+    --fw_5: 500;
+    --fw_4: 400;
+}
+
+.fs_2xl {
+    font-size: var(--fs_2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs_xl);
+}
+
+.fs_lg {
+    font-size: var(--fw_lg);
+}
+
+.fs_md {
+    font-size: var(--fs_md);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_25 {
+    font-size: var(--fs_25);
+}
+
+.fs_18 {
+    font-size: var(--fs_18);
+}
+
+.fs_16 {
+    font-size: var(--fs_16);
+}
+
+.fs_14 {
+    font-size: var(--fs_14);
+}
+
+.white {
+    color: var(--white);
+}
+
+.grey {
+    color: var(--grey);
+}
+
+.black {
+    color: var(--black);
+}
+
+.red {
+    color: var(--red);
+}
+
+.light_black {
+    color: var(--light_black);
+}
+
+.fw_7 {
+    font-weight: 700;
+}
+
+.fw_6 {
+    font-weight: 600;
+}
+
+.fw_5 {
+    font-weight: 500;
+}
+
+.fw_4 {
+    font-weight: 400;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+@media (min-width:998px) {
+    :root {
+        /* font size */
+        --fs_2xl: 50px;
+        --fs_xl: 35px;
+        --fs_25: 25px;
+        --fs_lg: 20px;
+        --fs_md: 16px;
+        --fs_sm: 14px;
+        --fs_18: 18px;
+        --fs_16: 16px;
+        --fs-14: 14px
+    }
+
+    .fs_2xl {
+        font-size: var(--fs_2xl);
+    }
+
+    .fs_xl {
+        font-size: var(--fs_xl);
+    }
+
+    .fs_14 {
+        font-size: var(--fs_14);
+    }
+
+    .fs_lg {
+        font-size: var(--fw_lg);
+    }
+
+    .fs_md {
+        font-size: var(--fs_md);
+    }
+
+    .fs_sm {
+        font-size: var(--fs_sm);
+    }
+
+    .fs_25 {
+        font-size: var(--fs_25);
+    }
+
+    .fs_18 {
+        font-size: var(--fs_18);
+    }
+
+    .fs_16 {
+        font-size: var(--fs_16);
+    }
+}
