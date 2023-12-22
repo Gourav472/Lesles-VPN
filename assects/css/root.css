@@ -10,10 +10,8 @@
     --fs_16: 16px;
     --fs_14: 14px;
     --fs_35: 25px
-
-
-    /* font color */
-    --grey: #666666;
+        /* font color */
+        --grey: #666666;
     --white: #F1F2F5;
     --black: #0B132A;
     --light_black: #4F5665;
@@ -48,7 +46,8 @@
 .fs_25 {
     font-size: var(--fs_25);
 }
-.fs_35{
+
+.fs_35 {
     font-size: var(--fs_35);
 }
 
@@ -142,7 +141,8 @@
     .fs_sm {
         font-size: var(--fs_sm);
     }
-    .fs_35{
+
+    .fs_35 {
         font-size: var(--fs_35);
     }
 
